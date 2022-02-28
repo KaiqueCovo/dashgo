@@ -1,11 +1,11 @@
-import { FormControl, FormLabel, Input as ChakraInput, InputProps as ChakraInputProps } from "@chakra-ui/react"
+import { FormControl, FormLabel, Input as ChakraInput, InputProps as ChakraInputProps } from '@chakra-ui/react';
 
 interface IInputProps extends ChakraInputProps {
   name: string;
   label?: string
 }
 
-export const Input = ({ name, label, ...resProps }: IInputProps) => (
+export const Input = ({ name, label, ...resProps }: IInputProps): React.ReactElement => (
   <FormControl>
     {!!label && <FormLabel htmlFor={name}>{label}</FormLabel>}
     <ChakraInput
@@ -19,4 +19,4 @@ export const Input = ({ name, label, ...resProps }: IInputProps) => (
       {...resProps}
     />
   </FormControl>
-)
+);

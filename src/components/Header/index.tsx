@@ -1,7 +1,9 @@
-import { Flex, Icon, Input, HStack, Text, Box, Avatar } from "@chakra-ui/react"
-import { RiNotificationLine, RiSearchLine, RiUserAddLine } from 'react-icons/ri'
+import { RiNotificationLine, RiSearchLine, RiUserAddLine } from 'react-icons/ri';
 
-export const Header = () => {
+import { Flex, Icon, Input, HStack, Text, Box, Avatar } from '@chakra-ui/react';
+
+
+export const Header = (): React.ReactElement => {
   return (
     <Flex 
       as="header"
@@ -42,7 +44,7 @@ export const Header = () => {
           px="4"
           mr="4"
           placeholder="Buscar na plataforma"
-          _placeholder={{ color: "gray.400"}} 
+          _placeholder={{ color: 'gray.400' }} 
         />
         <Icon as={RiSearchLine} fontSize="20" />
       </Flex>
@@ -72,5 +74,5 @@ export const Header = () => {
         </Flex>
       </Flex>
     </Flex>
-  )
-}
+  );
+};

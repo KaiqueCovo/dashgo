@@ -1,8 +1,8 @@
-import { Header } from '@/components/Header'
-import type { NextPage } from 'next'
+import { Header } from '@/components/Header';
+import type { NextPage } from 'next';
 
 const Dashboard: NextPage = () => {
-  return (<Header />)
-}
+  return (<Header />);
+};
 
-export default Dashboard
+export default Dashboard;

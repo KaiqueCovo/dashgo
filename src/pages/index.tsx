@@ -1,7 +1,6 @@
-
-import type { NextPage } from 'next'
-import { Button, Flex, Stack } from '@chakra-ui/react'
-import { Input } from '@/components/Form/Input'
+import { Input } from '@/components/Form/Input';
+import { Button, Flex, Stack } from '@chakra-ui/react';
+import type { NextPage } from 'next';
 
 const SignIn: NextPage = () => {
   return (
@@ -21,18 +20,18 @@ const SignIn: NextPage = () => {
         flexDirection="column"
       >
         <Stack spacing="4">
-          <Input 
+          <Input
             label="E-mail"
             type="email"
             name="email"
           />
-          <Input 
+          <Input
             label="Senha"
             type="password"
             name="password"
           />
         </Stack>
-        <Button 
+        <Button
           type="submit"
           mt="6"
           colorScheme="pink"
@@ -42,7 +41,7 @@ const SignIn: NextPage = () => {
         </Button>
       </Flex>
     </Flex>
-  )
-}
+  );
+};
 
-export default SignIn
+export default SignIn;

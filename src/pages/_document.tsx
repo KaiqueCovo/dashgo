@@ -1,7 +1,7 @@
-import Document, { Head, Html, Main, NextScript } from "next/document";
+import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 export default class MyDocument extends Document {
-  render() {
+  render(): React.ReactElement {
     return (
       <Html>
         <Head>
@@ -13,6 +13,6 @@ export default class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
