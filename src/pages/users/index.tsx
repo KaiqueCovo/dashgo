@@ -1,8 +1,6 @@
 import { RiAddLine } from 'react-icons/ri';
 
-import { Header } from '@/components/Header';
-import { Pagination } from '@/components/Pagination';
-import { Sidebar } from '@/components/Sidebar';
+import { Header, Pagination, Sidebar } from '@/components';
 import { Box, Button, Checkbox, Flex, Heading, Icon, Table, Tbody, Td, Text, Th, Thead, Tr } from '@chakra-ui/react';
 import { NextPage } from 'next';
 

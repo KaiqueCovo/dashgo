@@ -1,4 +1,4 @@
-import { Input } from '@/components/Form/Input';
+import { Input } from '@/components';
 import { Button, Flex, Stack } from '@chakra-ui/react';
 import type { NextPage } from 'next';
 

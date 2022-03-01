@@ -1,6 +1,4 @@
-
-import { Header } from '@/components/Header';
-import { Sidebar } from '@/components/Sidebar';
+import { Header, Sidebar } from '@/components';
 import { Box, Flex, SimpleGrid, Text, theme } from '@chakra-ui/react';
 import { ApexOptions } from 'apexcharts';
 import type { NextPage } from 'next';
