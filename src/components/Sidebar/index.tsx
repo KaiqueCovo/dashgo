@@ -4,7 +4,7 @@ import { Box, Link, Stack, Text, Icon } from '@chakra-ui/react';
 
 export const Sidebar = (): React.ReactElement => {
   return (
-    <Box as="aside" w="64" mr="8">
+    <Box data-testid="sidebar-testid" as="aside" w="64" mr="8">
       <Stack spacing={12} align="flex-start">
         <Box>
           <Text fontWeight="bold" color="gray.400" fontSize="small">Geral</Text>

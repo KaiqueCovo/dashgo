@@ -2,7 +2,7 @@ import { Box, Button, HStack } from '@chakra-ui/react';
 
 export const Pagination = (): React.ReactElement => {
   return (
-    <HStack spacing="6" mt="8" justify="space-between" align="center">
+    <HStack data-testid="pagination-testid" spacing="6" mt="8" justify="space-between" align="center">
       <Box>
         <strong>0</strong> - <strong>10</strong> de <strong>100</strong>
       </Box>
