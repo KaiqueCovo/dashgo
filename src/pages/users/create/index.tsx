@@ -1,6 +1,7 @@
 import { Input, Header, Sidebar } from '@/components';
 import { Box, Button, Divider, Flex, Heading, HStack, SimpleGrid, VStack } from '@chakra-ui/react';
 import { NextPage } from 'next';
+import Link from 'next/link';
 
 const UserList: NextPage = () => {
   return (
@@ -26,9 +27,11 @@ const UserList: NextPage = () => {
 
           <Flex mt="8" justify="flex-end">
             <HStack spacing="4">
-              <Button colorScheme="whiteAlpha">
+              <Link href="/users" passHref>
+                <Button as="a" colorScheme="whiteAlpha">
                 Cancelar
-              </Button>
+                </Button>
+              </Link>
               <Button colorScheme="pink">
                 Salvar
               </Button>
